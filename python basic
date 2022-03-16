@@ -1,0 +1,36 @@
+1. What are escape characters, and how do you use them?
+ To insert characters that are illegal in a string, use an escape character. An escape character is a backslash \ followed by the character you want to insert.
+2. What do the escape characters n and t stand for?
+ "\t" is a tab, "\n" is a newline.
+3. What is the way to include backslash characters in a string?
+ If you want an actual backslash in the string or regex, you have to write two: \\ 
+4. The string "Howl's Moving Castle" is a correct value. Why isn't the single quote character in the word Howl's not escaped a problem?
+ The single quote in Howl's is fine because you've used double quotes to mark the beginning and end of the string.
+5. How do you write a string of newlines if you don't want to use the n character?
+ Multiline strings allow you to use newlines in strings without the \n escape character.
+6. What are the values of the given expressions?
+'Hello, world!'[1]
+o/p-‘e’
+'Hello, world!'[0:5]
+o/p-'Hello'
+'Hello, world!'[:5]
+o/p-‘Hello’
+'Hello, world!'[3:]
+o/p-'lo, world!'
+7. What are the values of the following expressions?
+'Hello'.upper()
+'HELLO'
+'Hello'.upper().isupper()
+True
+'Hello'.upper().lower()
+'hello'
+8. What are the values of the following expressions?
+'Remember, remember, the fifth of July.'.split()
+['Remember,', 'remember,', 'the', 'fifth', 'of', 'July.']
+'-'.join('There can only one.'.split())
+'There-can-only-one.'
+9. What are the methods for right-justifying, left-justifying, and centering a string?
+Python string method rjust() returns the string right justified in a string of length width.
+Python string method ljust() 
+10. What is the best way to remove whitespace characters from the start or end?
+ To remove whitespace characters from the beginning or from the end of a string only, you use the trimStart() or trimEnd() method.
